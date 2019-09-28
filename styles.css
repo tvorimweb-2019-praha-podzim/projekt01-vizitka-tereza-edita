@@ -1,0 +1,16 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+a:hover  {color: rgb(255, 81, 0); text-decoration: underline}
+h1     {text-align: center; font-size: 40px}
+body {background-color: #f9f9f9; font-family: "Lato"; }
+p {text-align: left}
+ul {text-align: left}
+img {border: 1px solid; padding: 1px}
+
+.center {
+    text-align: center;
+  }
+
+.content {
+    display: inline-block;
+}
