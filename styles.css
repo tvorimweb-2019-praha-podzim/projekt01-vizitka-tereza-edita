@@ -1,31 +1,48 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
-
 header {
-    background-color: #263d36;
-    background-image: url("praha.jpg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 1.2;
-    padding: 10vw 2em;
-    text-align: center;
-  }
-body {background-color: #f8f1ed; font-family: "Lato";}
-a:hover  {color: rgb(255, 81, 0); text-decoration: underline}
-h1     {text-align: center; font-size: 40px}
-p {text-align: left}
-ul {text-align: left; margin-top: -10px}
-img {border: 2px solid; padding: 1px}
-
-
-.center {
-    text-align: center;
-  }
-
-.content {
-    display: inline-block;
+  background-color: #263d36;
+  background-image: url("praha.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
 }
 
+body {
+  background-color: #f8f1ed;
+  font-family: "Lato", sans-serif;
+}
 
-  
+a:hover {
+  color: rgb(255, 81, 0);
+  text-decoration: underline;
+}
 
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+  margin-top: -10px;
+}
+
+img {
+  border: 2px solid;
+  padding: 1px;
+}
+
+.center {
+  text-align: center;
+}
+
+.content {
+  display: inline-block;
+}
