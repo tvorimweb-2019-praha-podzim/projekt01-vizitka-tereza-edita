@@ -1,12 +1,20 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+html {
+  box-sizing: border-box;
+}
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
 header {
   background-color: #263d36;
-  background-image: url("praha.jpg");
-  background-position: center top;
+  background-image: url("desert.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1.2;
-  padding: 10vw 2em;
+  padding: 6vw 1em;
   text-align: center;
 }
 
@@ -16,13 +24,14 @@ body {
 }
 
 a:hover {
-  color: rgb(255, 81, 0);
-  text-decoration: underline;
+  color: darkred;
+  text-decoration: none;
 }
 
 h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
+  padding-top: 17px;
 }
 
 p {
@@ -34,9 +43,17 @@ ul {
   margin-top: -10px;
 }
 
+li {
+  padding: 2px;
+}
+
 img {
   border: 2px solid;
   padding: 1px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .center {
@@ -46,3 +63,41 @@ img {
 .content {
   display: inline-block;
 }
+
+.ulmenu {
+background-color: rgb(228, 144, 42);
+text-align: center;
+padding: 5px;
+}
+
+.limenu {
+  display: inline-block;
+}
+
+.amenu {
+  display: inline-block;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  background-color: rgb(185, 124, 50);
+  color: black;
+}
+
+.divmenu {
+  background-color: rgb(228, 144, 42);
+  margin-top: -14px;
+}
+
+.amenu:hover {
+  color: rgb(51, 38, 2);
+  text-decoration: none;
+  background-color: rgb(209, 117, 5);
+}
+
+.box {
+  border: black solid;
+  padding: 20px;
+  margin-top: 50px;
+}
+

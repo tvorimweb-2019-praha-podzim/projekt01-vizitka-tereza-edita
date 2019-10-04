@@ -1,20 +1,11 @@
 <!--
-Vytvoř osobní vizitku se:
+Lekce 2:
 
-- jménem,
-- krátkým odstavcem o sobě,
-- odkazem na svůj profil,
-- vlastní fotkou (aby tě lektoři poznali),
-- odkazem na svůj e-mail.
+- přidáno horizontální menu
+- přidána stránka "kontakt"
+- chtěla jsem, aby se ta stránka po kliknutí na současné menu pěkně scrollovala dolů,
+ale když jsem zjistila, že to vyžaduje jquery, tak jsem to nechala takhle :)
 
-Vizitku ostyluj pomocí CSS:
-
-- Nastav barvu pozadí, popředí
-- Uprav velikost písma, zarovnání textu
-- Přidej si vlastní písmo např. z Google Fonts
-- Další vlastnosti dle vlastního uvážení
-
-Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
 -->
 
 
@@ -30,21 +21,28 @@ Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
 </head>
 <body>
     <header></header>
+    <div class="divmenu">
+
     <h1>Tereza Edita Hronová</h1>
+        <ul class="ulmenu">
+            <li class="limenu"><a name="down"><a href="#down" class="amenu">O mně</a></a></li>
+            <li class="limenu"><a href="kontakt.html" class="amenu">Kontakt</a></li>
+        </ul>
+    </div>
+    
     <div class="center">
     <div class="content">
 
                      <img src="IMG_5168.JPG">
 
-                    <p><b>Facebook</b>: <a href="https://www.facebook.com/El.Teresino" rel="nofollow">El Teresino</a></p>
-                    <p><b>Email</b>: <a href="mailto:t.e.hronova@gmail.com" rel="nofollow">t.e.hronova@gmail.com</a></p>
+                     <p><b>Místo</b>: Praha</p>
+                     <p><b>Věk</b>: 27</a></p>
                     <p><b>Něco o mně</b>: 
                         <ul>
                             <li> Ráda jezdím na koni, hraju na klavír a jezdím na kolečkových i ledních bruslích ⛸️</li>
                             <li> Kamarádi mi říkají Hron</li>
-                            <li> K IT jsem se dostala náhodou - moje první práce byla datařina v Zootu, dnes pracuji v Microsoftu</li>
-                            <li> Prý na mě sedí výrok: <i>"Just because I listen doesn't mean that I care"</i></li>
-                            <li> Nejraději ze všeho ale vařím - takže nevyjde kariéra v IT, dám se na kuchařinu :)</li>
+                            <li> K IT jsem se dostala náhodou - začínala jsem s daty v Zootu, dnes pracuji v Microsoftu</li>
+                            <li> Nejraději ze všeho vařím :) </li>
 
                         </ul>
                     </p>
@@ -53,7 +51,3 @@ Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
 </body>
 </html>
 
-
-<!-- Poznámka - mám kolem stránky v Safari od jisté chvíle žluté ohraničení. 
-    Chvilku jsem googlila, údajně by mělo pomoct "outline: none", ale mně se to nepovedlo.
-    Dejte vědět, jestli se vám to zobrazuje taky tak. -->
